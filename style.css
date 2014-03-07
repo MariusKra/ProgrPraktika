@@ -1,0 +1,206 @@
+.message_window{
+    background-color: darkgray;
+    border: 2px solid green;
+    width:800px;
+    height: 400px;
+}
+
+#upperPanel{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:100px;
+}
+
+#chat{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:200px;
+    background:silver;
+//overflow:auto;
+}
+
+#friends{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:200px;
+    right:0;
+    background:darkseagreen;
+    overflow:auto;
+
+}
+
+#friends ul{
+    text-align:left;
+    position: absolute;
+}
+
+#bottomPanel{
+    height: 100px;
+    background:yellowgreen;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#bottomPanel textarea{
+//position:absolute;
+    float: left;
+    top:10px;
+    bottom:10px;
+    left:10px;
+    right:200px;
+    width: 400px;
+    height: 50px;
+    resize: none;
+    margin: 20px;
+
+}
+
+#bottomPanel input[type=submit]{
+//position:absolute;
+    float: left;
+    top:10px;
+    bottom:10px;
+    right:10px;
+    margin: 20px;
+    height: 50px;
+    width:100px;
+}
+
+.bubble
+{
+    position: relative;
+    //position: absolute;
+    width: auto;
+    //height: 70px;
+    height: auto;
+    padding: 0px;
+    background: #E0DADA;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px;
+    margin: 3px;
+    padding: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.greenBubble{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    background-color: yellowgreen;
+    //position: relative;
+    //display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.redBubble{
+
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    background-color: indianred;
+    //position: relative;
+    //display: inline-block;
+    //margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+
+
+
+.bubble:after
+{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    border-style: solid;
+    border-width: 7px 20px 3px 0;
+    border-color: transparent #E0DADA;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bubbleUsers
+{
+
+    //position: relative;
+    //width:auto;
+    height: auto;
+    //padding: 0px;
+    background: #DAF3B9;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    //display: compact;
+    float: left;
+
+}
+
+.friendStyle{
+//position: relative;
+width:175px;
+    height: auto;
+//padding: 0px;
+    background: #DAF3B9;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+//display: compact;
+    float: left;   // cia kazka reikia sutvarkyt
+    display: inline-block;
+
+}
+
+
+
+.friend{
+    //display: inline-block;
+
+//display: compact;
+    float: left;
+    display: inline-block;
+}
+
+
+
+
+.messageSender{
+    position: relative;
+//position: absolute;
+    width: auto;
+//height: 70px;
+    height: auto;
+    padding: 0px;
+    background: #E0DADA;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+   // display: block;
+}
