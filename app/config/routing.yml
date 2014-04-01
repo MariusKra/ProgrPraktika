@@ -1,0 +1,2 @@
+chat:
+    resource: "@KTUchatBundle/Resources/config/routing.yml"
